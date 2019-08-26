@@ -4,8 +4,23 @@
   "description": "yablog",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ricardogcolombo@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@okta/oidc-middleware": "^1.0.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "epilogue": "^0.7.1",
+    "express": "^4.17.1",
+    "express-session": "^1.15.6",
+    "sequelize": "^5.16.0",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
 }
